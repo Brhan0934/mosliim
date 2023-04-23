@@ -1,0 +1,1056 @@
+*{  
+  box-sizing: border-box;
+
+  padding: 0;
+ scroll-behavior: smooth;
+  margin: 0;
+  text-decoration: none;
+}
+ul ol li a{ text-decoration: none;}
+/* اللون */
+
+
+
+:root{
+  --cccolor:rgb(6, 166, 194);
+ --blooo:#037269;
+}
+
+/* الراس */
+
+
+HEader{
+  width: 100%;
+  height: 160px;
+  background-color:rgba(9, 194, 185, 0.089);
+  background-image: url(imeg/116.jpg);
+  position: fixed;
+margin-top: 0;
+  z-index:2;
+  background-size: 100% 780px;
+}
+@media (max-width:768px) {
+  
+  HEader{
+  width: 100%;
+  height: 152px;
+  background-color:rgba(9, 194, 185, 0.315);
+  background-image: url(imeg/116.jpg);
+  position: fixed;
+
+  z-index:2;
+  background-size: 100% 780px;
+}
+main{text-decoration: none;
+  width:100%;
+ height:auto;
+
+ /* background-color:#01ff958c; */
+/* background-color: #ffffff; */
+ float:left;
+
+}
+
+  
+}
+
+
+/* النص */
+h1{ 
+  color: #000000;
+  text-align: center;
+  text-shadow: 1px 1px 5px var(--cccolor);
+  margin: 2px;
+}
+h5{
+  display: flex;
+  margin-left:30%;
+  margin-right: 30%;
+  color: var(--cccolor);
+  justify-content: center;
+} 
+h2{position: relative;
+  top: -12px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+ text-shadow: 1px 1px 5px var(--cccolor);
+ font-size: 30px;
+}
+
+nav{text-decoration: none;
+  width: 100%;
+  height: 40px;
+  color: #ffffff00;
+  margin-bottom: 10px;
+  background-color:#00a78e00;
+  /* box-shadow: 4px 4px 20px var(--cccolor); */
+  position: relative;
+  position: fixed;
+  z-index: 2;
+}
+
+/* الوسط */
+main{text-decoration: none;
+  width:100%;
+ height:auto;
+ /* background-image:url(imeg/wallpaperbetter.jpg); */
+
+ /* background-repeat:no-repeat; 
+ background-size: contain; */
+background-color:rgba(255, 204, 204, 0.432); 
+ float:left;
+
+}
+aside{
+  width: 100%;
+  height: 555px;
+  background-image: url(imeg/116.jpg);
+  background-size: 100% 780px;
+  padding-top:150px;
+  margin-top: 0px;
+  margin-bottom:0%;
+}
+
+
+/* الفوتر */
+footer{text-decoration: none;
+  width: 100%;
+  height:100px;
+  margin-top: -17%;
+  background-color:var(--cccolor);
+  box-shadow: 4px 4px 20px var(--cccolor);
+  clear: both;
+}
+/* الانميشن */
+#h1,#h11,#h111,#h1111{
+  width: 5px;
+height:5px; 
+background-color: var(--cccolor);
+display: flex;
+margin:10px 0px;
+justify-content: center ;
+align-items: center;
+border-radius: 50%;
+padding:4px;
+text-align: right;
+font-size: 6;
+margin-top: 15px;
+animation-name:  up-and-down;
+animation-duration:1.9s;
+animation-iteration-count:  infinite;
+animation-direction:  alternate;
+
+}
+#h11{
+  animation-delay: 0.3s;
+}
+#h111{
+   animation-delay: 0.6s;
+}
+#h1111{
+   animation-delay: 0.9s;
+}
+@keyframes up-and-down{
+   to{
+       opacity: 0.2;
+       transform: translatey(-15px);
+   }
+  }
+  #h0{
+      display: flex;
+      justify-content: center;
+     margin-left: 40%;
+     margin-right: 40%;
+         display: inline block;
+         margin-bottom: -5px;
+    
+  }
+  /* اللوغو */
+  #ddd{
+
+      width:50px;
+      height: 50px;
+  transition: 3s;
+      border-radius: 50%;
+      padding: 10px;
+     background-color:var(--blooo);
+  box-shadow:2px 2px 13px var(--cccolor);
+  position: absolute;
+  top:2%;
+  right:8%;
+
+  }
+  /* انيميشن */
+  #ddd:hover{
+      transform: matrix(1,1,0,1 ,-60 ,30);
+      transform:rotate3d(3,3,2, 360deg);
+  }
+
+    div #h{
+      width: 60px;
+      height: 60px;
+      background-color: #6e053f;
+  }
+  /* ايقونات التواصل */
+  #msn,#fes,#wa,#sms,#tl{
+      height: 23px;
+      width: 30px;
+    margin-left: 15px;
+     margin-top: 4px;
+  color: rgb(0, 0, 0);
+      display: flex;
+   
+ 
+   z-index: 2;
+ justify-content: space-between;
+     margin-top: 15px;
+   margin-bottom: 0%;
+  }
+  #icon{ 
+        position: relative;
+        /* position: fixed; */
+          /* flex-direction: column; */
+         color: rgb(0, 0, 0);
+         display: flex;
+           margin-left: 0PX;
+  
+           align-items: end;
+      
+  }
+  @media (max-width:651px) {
+    #icon {
+      position: relative;
+      /* flex-direction: column; */
+      color: rgb(0, 0, 0);
+      display: flex;
+      margin-left: -10PX;
+      align-items: end;
+      top: -100%;
+  }
+  }
+  @media (max-width:1000px) {
+    #icon {
+      position: relative;
+      /* flex-direction: column; */
+      color: rgb(0, 0, 0);
+      display: flex;
+      margin-left: -10PX;
+      align-items: end;
+      top: -100%;
+  }
+  }
+  @media (max-width:700px) {
+      #tf a,#hd a,#zs a,#zm a,#sor a,#ttt a{
+            font-size: 15px;
+      }
+  }
+
+
+  #sms:hover{
+      transition: 2s;
+     transform:rotate3d(3,3,2, 360deg);
+  }
+  #fes:hover{
+      transition: 2s;
+       transform:rotate3d(3,3,2, 360deg);
+  }
+  
+  #wa:hover{ 
+      transition: 2s;
+      transform:rotate3d(3,3,2, 360deg);
+  }
+   #msn:hover{
+       transform:rotate3d(3,3,2, 360deg);
+       transition: 2s;
+      }
+      #tl:hover{
+          transform:rotate3d(3,3,2, 360deg);
+          transition: 2s;
+
+      }
+      @media (max-width:650px) {
+          #msn,#fes,#wa,#sms,#tl{
+              height: 15px;
+              width: 20px;
+            margin-left: 15px;
+        
+          color: rgb(0, 0, 0);
+              display: flex;
+           
+         justify-content: space-between;
+             margin-top: 15px;
+           margin-bottom: 0%;
+          }
+          #icon{   position: relative;
+            top: -12px; 
+       flex-direction: column;
+              color: rgb(0, 0, 0);
+                 display: flex;
+               margin-left: 0PX;
+              align-content:flex-end;
+             right: 218px;
+               margin-bottom: 0px;
+               width: 240px;
+          }
+       h1{font-size: 22px;}
+       h2{font-size:20px;
+           padding-top: 10px;
+        margin-bottom: 5px;
+      }
+      }
+      /* السور */
+      #bu{
+          display: flex;
+          width:130px;
+          height: 400px;
+          background-color: #00000094;
+          overflow: hidden;
+          overflow-y: scroll;
+         border-radius: 10px;
+          margin: 10px;
+         
+          padding: 15px;
+          margin-top:15px;
+           flex-direction: column;
+          justify-content: left;
+          /* position: fixed; */
+          
+          z-index: 1;
+      }
+      @media (max-width:768px) {
+          #bu{
+          display: flex;
+          width:149px;
+          height: 331px;
+          background-color: #000000a6;
+          overflow: hidden;
+          overflow-y: scroll;
+     border-radius: 8px;
+          margin: 10px;
+         margin-top: 38px;
+          padding: 15px;
+        
+          float:top;
+          /* margin-top:-4px; */
+           flex-direction: column;
+          justify-content: left;
+          position: fixed;
+          display: none;
+          z-index: 1;
+      }
+          
+      }
+
+      #bu a{ 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex-direction: column;
+          width: 109px;
+          height: 37px;
+         margin-top: 20px;
+          margin: 7px;
+          padding: 15px;
+          
+      
+         color:#f22;
+         
+       z-index: 0;
+
+      }
+      
+
+     
+      #bu::-webkit-scrollbar{
+          display: none;
+      }
+ 
+  
+  #nav{background-color:var(--cccolor);
+  display: flex;
+  width: 100%;
+  height: 37px;
+  position: relative;
+  top: 102px;
+  
+  }
+  li #zm li #zs li #hd li #sor li #tf{
+      width: 44px;
+
+  }
+
+    @media(max-width:650px) {
+  
+      #bu{
+          display: flex;
+          width:149px;
+          height:321px;
+          background-color: #000000a4;
+          overflow: hidden;
+          overflow-y: scroll;
+          position: fixed;
+          margin: 6px;
+         border-radius: 8px;
+          padding: 15px;
+          /* padding-top:160px; */
+          float:top;
+          margin-top:49px;
+           flex-direction: column;
+          justify-content: left;
+          /* position: fixed; */
+          display: none;
+          z-index: 22;
+      }
+
+      #bu a{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex-direction: column;
+          width: 66px;
+          height: 25px;
+          margin: 10px;
+          padding: 5px;
+      margin-top: 15px;
+          
+         color:#f22;
+         
+         /* display: none; */
+
+
+      }
+      #nav {
+  background-color: var(--cccolor);
+  display: flex;
+  width: 100%;
+  height: 32px;
+  position: relative;
+  top: -10px;
+    }
+  }
+  
+  #sor a:hover{
+      color: #000000;
+      transition:1s;
+    }
+    #zm a:hover{color:  #000000; transition:1s;
+
+  }
+    #zs a:hover{color:  #000000; transition:1s;}
+     #tf a:hover{color:  #000000; transition:1s;} 
+     #hd a:hover{color:  #000000;transition:1s;}
+      #ttt a:hover{color:  #000000; transition:1s;}
+   
+
+
+  /* #bu{display: none;} */
+ 
+ /* السور */
+ #d1, #d2,#d3,#d4,#d5,#d6 ,#div,#d7,#d8,#d9,#d10,#d11,#d12,#d13,#d14,#d15,#d16,#d17,#d18,#d19,#d20,#d21,#d22,#d23,#d24,#d25,#d26,#d27,#d28,#d29,#d30,#d31,#d32,#d33,#d34,#d35,#d36,#d37,#d38,#d39,#d40,#d41,#d42,#d43,#d44,#d45,#d46,#d47,#d48,#d49,#d50,#d51,#d52,#d53,#d54,#d55,#d56,#d57,#d58,#d59,#d60,#d61,#d62,#d63,#d64,#d65,#d66,#d67,#d68,#d69,#d70,#d71,#d72,#d73,#d74,#d75,#d76,#d77,#d78,#d79,#d80,#d81,#d82,#d83,#d84,#d85,#d86,#d87,#d88,#d89,#d90,#d91,#d92,#d93,#d94,#d95,#d96,#d97,#d98,#d99,#d100,#d101,#d102,#d103,#d104,#d105,#d106,#d107,#d108,#d109,#d110,#d111,#d112,#d113,#d114 {
+  
+  
+     
+     overflow: hidden;
+     overflow-y: scroll;
+   width:90%;
+   height: 600px;
+ 
+    margin: auto;
+ /* margin-left: 20%; */
+   background-color: #fff;
+   color: var(--blooo);
+   font-size: 36px;
+   /* margin-top: 20px; */
+   padding: 20px;
+   border: 4px solid var(--cccolor) ;
+   border-radius: 10px; 
+    line-height: 56px;
+    /* display: none; */
+ }
+
+
+ @media (min-width:768px) {
+  #d1,#d2,#d3,#d4,#d5,#d6 ,#div,#d7,#d8,#d9,#d10,#d11,#d12,#d13,#d14,#d15,#d16,#d17,#d18,#d19,#d20,#d21,#d22,#d23,#d24,#d25,#d26,#d27,#d28,#d29,#d30,#d31,#d32,#d33,#d34,#d35,#d36,#d37,#d38,#d39,#d40,#d41,#d42,#d43,#d44,#d45,#d46,#d47,#d48,#d49,#d50,#d51,#d52,#d53,#d54,#d55,#d56,#d57,#d58,#d59,#d60,#d61,#d62,#d63,#d64,#d65,#d66,#d67,#d68,#d69,#d70,#d71,#d72,#d73,#d74,#d75,#d76,#d77,#d78,#d79,#d80,#d81,#d82,#d83,#d84,#d85,#d86,#d87,#d88,#d89,#d90,#d91,#d92,#d93,#d94,#d95,#d96,#d97,#d98,#d99,#d100,#d101,#d102,#d103,#d104,#d105,#d106,#d107,#d108,#d109,#d110,#d111,#d112,#d113,#d114{
+    width: 600px;
+    line-height: 38px;
+  
+
+  
+
+
+  }
+  
+ }
+ @media (min-width:1100px) {
+  #d1,#d2,#d3,#d4,#d5,#d6 ,#div,#d7,#d8,#d9,#d10,#d11,#d12,#d13,#d14,#d15,#d16,#d17,#d18,#d19,#d20,#d21,#d22,#d23,#d24,#d25,#d26,#d27,#d28,#d29,#d30,#d31,#d32,#d33,#d34,#d35,#d36,#d37,#d38,#d39,#d40,#d41,#d42,#d43,#d44,#d45,#d46,#d47,#d48,#d49,#d50,#d51,#d52,#d53,#d54,#d55,#d56,#d57,#d58,#d59,#d60,#d61,#d62,#d63,#d64,#d65,#d66,#d67,#d68,#d69,#d70,#d71,#d72,#d73,#d74,#d75,#d76,#d77,#d78,#d79,#d80,#d81,#d82,#d83,#d84,#d85,#d86,#d87,#d88,#d89,#d90,#d91,#d92,#d93,#d94,#d95,#d96,#d97,#d98,#d99,#d100,#d101,#d102,#d103,#d104,#d105,#d106,#d107,#d108,#d109,#d110,#d111,#d112,#d113,#d114{
+    width: 900px;
+    line-height: 60px;
+    height: 700px;
+  }
+  
+ }
+
+ /* الصوت */
+   #s,audio{
+ background-color:  var(--blooo);
+  padding: 5px;
+  margin-top: 5px; 
+ }
+ h3{ padding: 5px;
+  margin-bottom: 5px;
+  color:  #03A9F4;
+  /* text-shadow: 3px 3px 5px var(--cccolor); */
+ 
+ }
+
+
+
+ h4{ padding: 5px;
+ text-align: center;
+ justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  color: #03A9F4;
+  /* text-shadow: 2px 2px 3px #000000;} */
+
+ }
+@media(max-width:767px){
+  
+#d1,#d2,#d3,#d4,#d5,#d6 ,#div,#d7,#d8,#d9,#d10,#d11,#d12,#d13,#d14,#d15,#d16,#d17,#d18,#d19,#d20,#d21,#d22,#d23,#d24,#d25,#d26,#d27,#d28,#d29,#d30,#d31,#d32,#d33,#d34,#d35,#d36,#d37,#d38,#d39,#d40,#d41,#d42,#d43,#d44,#d45,#d46,#d47,#d48,#d49,#d50,#d51,#d52,#d53,#d54,#d55,#d56,#d57,#d58,#d59,#d60,#d61,#d62,#d63,#d64,#d65,#d66,#d67,#d68,#d69,#d70,#d71,#d72,#d73,#d74,#d75,#d76,#d77,#d78,#d79,#d80,#d81,#d82,#d83,#d84,#d85,#d86,#d87,#d88,#d89,#d90,#d91,#d92,#d93,#d94,#d95,#d96,#d97,#d98,#d99,#d100,#d101,#d102,#d103,#d104,#d105,#d106,#d107,#d108,#d109,#d110,#d111,#d112,#d113,#d114 { 
+    width:90%;
+      height: 350px;
+
+      font-size: 15px;
+      overflow: hidden;
+      overflow-y: scroll;
+      padding: 15px;
+      font-size: 18px;
+      margin:auto;
+      line-height: 35px;
+  }
+  h3{font-size:16px;}
+  audio{display: flex-box;
+      width:90%;
+  padding: 8px;
+  justify-content:center;
+  
+      height: 40px;
+      margin-left: 0;
+      margin-right: 0;
+  
+  }
+audio #s{width: 100%;
+      padding: 14px;
+      margin-right: 0; 
+      margin-left: 0;
+  }
+}
+/* footer */
+#rob{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 15px;
+padding: 10px;
+color: #000000;
+
+}
+p{color:#d15 ;
+/* margin: auto; */
+display: flex;
+justify-content: center;
+font-size: 12px;
+}
+
+span{
+color:#fff;
+}
+span a{color: #fff;}
+/* ايقونات التواصل */
+#msn1,#fes1,#wa1,#sms1,#tl1{
+height: 23px;
+width: 30px;
+margin-left: 18px;
+
+color: rgba(252, 0, 0, 0.897);
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+/* background-color: var(--cccolor); */
+justify-content: space-between;
+border-radius: 10px;
+}
+#icon1{ 
+  position: relative;
+
+    /* flex-direction: column; */
+   color: rgb(240, 8, 8);
+       margin-top: 5px;
+       margin-bottom: 15px;
+      display: flex;
+     width:100%;
+     justify-content: center;
+   
+     align-items: center;
+
+}
+
+#sms1:hover{
+transition: 2s;
+transform:rotate3d(3,3,2, 360deg);
+}
+#fes1:hover{
+transition: 2s;
+ transform:rotate3d(3,3,2, 360deg);
+}
+
+#wa1:hover{ 
+transition: 2s;
+transform:rotate3d(3,3,2, 360deg);
+}
+#msn1:hover{
+ transform:rotate3d(3,3,2, 360deg);
+ transition: 2s;
+}
+#tl1:hover{
+    transform:rotate3d(3,3,2, 360deg);
+    transition: 2s;
+
+}
+/* الاحاديث */
+#hd1{
+display: flex;
+width: 90%;
+/* height: 400px; */
+background-color:#2195f3d3;
+justify-content:center;
+align-items: center;
+margin:auto;
+/* border: 3px solid var(--cccolor); */
+border-radius: 10px;
+align-content: flex-end;
+position: relative;
+box-shadow:4px 4px 20px var(--cccolor);
+z-index:1;
+
+}
+
+
+
+
+/* التفسير */
+
+#tf1{
+  display: flex;
+width:90%;
+/* height: 400px; */
+margin:auto;
+background-color:#2195f3d3;
+justify-content:center;
+align-items: center;
+box-shadow:4px 4px 20px var(--cccolor);
+/* border: 3px solid var(--cccolor); */
+border-radius: 10px;
+/* align-content: flex-end; */
+position: relative;
+flex-wrap: wrap; 
+z-index: 1;
+
+}
+
+
+/* اذكار ص */
+
+#zs1{
+
+  display: flex;
+width:90%;
+/* height: 200px; */
+background-color:#2195f3d3;
+justify-content:center;
+align-items: center;
+margin:auto;
+box-shadow:4px 4px 20px var(--cccolor);
+/* border: 3px solid var(--cccolor); */
+border-radius: 10px;
+position: relative;
+align-content: flex-end;
+z-index:1;
+}
+
+
+
+/* اذكار م */
+
+#zm1{
+  display: flex;
+width:90%;
+/* height:200px; */
+background-color:#2195f3d3;
+justify-content:center;
+align-items: center;
+margin:auto;
+box-shadow:4px 4px 20px var(--cccolor);
+/* border: 3px solid var(--cccolor); */
+border-radius: 10px;
+align-content: flex-end;
+position: relative;
+z-index: 1;
+
+}
+/* الزرار */
+#tf1 a,#hd1 a {
+
+  display: flex;
+  
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex-direction: column;
+          flex-direction: row-reverse;
+          width: 120px;
+          font-size: 15px;
+          height: 44px;
+       
+          margin: 20px;
+          padding: 5px;
+          border: 2px solid var(--cccolor);
+          border-radius: 10px;
+         color: var(--blooo);
+         background-color: #fff;
+}
+#zm1 a,#zs1 a {
+  display: flex;
+  /* box-sizing: border-box; */
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        
+          flex-wrap: wrap;
+          width: 170px;
+          height: 44px;
+        
+ justify-content: space-around;
+          font-size:15px;
+          margin: auto;
+          padding: 5px;
+          border: 2px solid var(--cccolor);
+          border-radius: 10px;
+         color: var(--blooo);
+         background-color: #fff;
+}
+
+ #t0{
+ width: 90%;
+ height: auto;
+ 
+  /* margin: 5px;
+  margin-left: -67%;
+  margin-top: -10%; */
+  margin: auto;
+  box-sizing: border-box;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ 
+}
+#t1{  
+  box-sizing: border-box;
+  width: 90%;
+   height:auto;
+
+  /* margin-left: 33%;
+  margin-top: 10%; */
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+#tf1 a:hover{
+  background-color: #f55fb1;
+  color: #fff;
+  transition: 2s;
+  padding-bottom: 20px;
+}
+#hd1 a:hover{
+  background-color: #f55fb1;
+  color: #fff;
+  transition: 2s;
+  padding-bottom: 20px;
+}
+#zs1 a:hover{
+  background-color:  #f55fb1;
+  color: #fff;
+  transition: 2s;
+  padding-bottom: 20px;
+}
+#zm1 a:hover{
+  background-color:   #f55fb1;
+  color: #fff;
+  transition: 2s;
+  padding-bottom: 20px;
+}
+#tf1:hover{box-shadow:11px 11px 33px #f55fb1;}
+#zm1:hover{box-shadow:11px 11px 33px #f55fb1;}
+#zs1:hover{box-shadow:11px 11px 33px #f55fb1;}
+#hd1:hover{box-shadow:11px 11px 33px #f55fb1;}
+      @media (max-width:768px) {
+
+          #zm1 a,#zs1 a{
+          width:130px;
+          font-size: 15px;
+          
+       padding: 6px;
+       margin:15px;
+       display: flexbox;
+       display: flex;
+       display: block;
+          justify-content: space-evenly;
+          justify-content:center ;
+          text-align: center;
+          align-items:center;
+         }
+        
+      
+            
+         }
+         
+         #tf1, #hd1{
+             display: flex;
+           flex-direction:space-evenly;
+             align-items: center;
+         
+             justify-content:center;
+         }
+         /* لوغو الصفحات */
+      #zs1  img{position: absolute;
+          /* left: 43%;
+         
+        right: 50%; */
+        bottom: 90%;
+          width: 50px;
+          height:50px;
+          border-radius: 50%;
+      }
+      #zm1  img{position: absolute;
+          /* left: 43%;
+         
+        right: 50%; */
+        bottom: 90%;
+          width: 50px;
+          height:50px;
+          border-radius: 50%;
+      }
+      #tf1  img{position: absolute;
+          /* left: 43%;
+         
+        right: 50%; */
+        bottom: 95%;
+          width: 50px;
+          height:50px;
+          border-radius: 50%;
+      }
+      #hd1  img{position: absolute;
+          /* left: 43%;
+         
+        right: 50%; */
+        bottom: 95%;
+          width: 50px;
+          height:50px;
+          border-radius: 50%;
+      }
+       header  nav{
+          background-color: var(--cccolor);
+          height: 40px;
+          width: 100%;
+          margin: auto;
+         
+          justify-content: center;
+      }
+      ul {
+          display: flex;
+          justify-content: center;
+        margin-top: 7px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      ul li a{
+         margin-right: 20px;
+        font-size: 22px;
+         align-items: center;
+         text-align: center;
+           /* background-color:var(--blooo); */
+
+      }
+@media(max-width:768px){
+
+ul {
+
+display: flex;
+width: 150PX;
+position: absolute;
+height: auto;
+margin-top: 50PX;
+float: right;
+margin-right: -59%;
+padding: 4px;
+
+flex-direction: column;
+
+text-align: center;
+
+background-color: #0000009a;
+border-radius: 8PX;
+
+} ul li {
+width: 120px;
+height: auto;
+margin: 6px;
+padding: 4px;
+}
+
+nav ul li a{ display: flex;
+
+width: 114px;
+height: 32px;
+text-align: center;
+font-size: 15px;
+justify-content: center;
+
+
+color:#f22;
+/* border: 2px solid var(--cccolor);
+border-radius: 18px; */
+transition: 0.6s ease;
+
+
+}
+ul{position:absolute;
+left: 111%;
+transition: 0.6s ease ;
+}
+
+
+
+.checkbtn{
+  color: #000000;
+  font-size: 35px;
+  float: right;
+  margin-right: 20px ;
+  cursor: pointer;
+  margin-top: 4px;
+}
+#chk1{ display:none;}
+
+#chk1:checked ~ ul{
+  left: 58%;
+}
+
+main:hover ~ ul{
+  left: 100%;
+}
+#sfh{
+  position: absolute;
+  z-index: 88;
+  text-decoration: none;
+  right: 57%;
+  left:42%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+padding-top: 5px;
+  margin-top:6px;
+  border-radius: 8px;
+border:3px 2px solid var(--blooo);
+/* background-color:var(--blooo); */
+
+  width: 81px ;
+  height: 25px ;
+  color:#000000;
+  font-size: 12px;
+}
+#sfh a{    justify-content: center;
+  align-items: center;
+  text-align: center;
+margin-top: -5px;
+}
+#qran{
+ position:absolute;
+ z-index: 99;
+ text-decoration: none;
+ right: 67%;
+ left: 0%;
+ justify-content: center;
+padding-top: 4px;
+ text-align: center;
+ margin-top:6px;
+ width: 79px;
+ height: 25px;
+ border-radius: 8px;
+ color: #000000;
+ font-size: 14px;  
+  align-items: center;
+ border:2px 2px solid var(--blooo);
+ /* background-color: var(--blooo); */
+ margin-left: 45px;
+}
+
+
+}
+
+nav ul li a:hover  {
+ padding-right: 25px;
+ transition:1s;
+color: #eeff00;
+}
+      
+.checkbtn:hover{
+  color: #fff;
+  transition: 0.5s;
+}
+#bu a:hover{
+   padding-left: 35px;
+   color: #eeff00;
+   transition:1s;
+}
+
+
+
+@media (min-width:769px) {
+  
+
+#qran{
+  display: none;
+}
+#sfh{
+  display: none;
+}
+#chk1{
+  display: none;
+}
+.checkbtn{
+  display: none;
+}    
+
+}
+
+/* اسماء السور */
+
+
+#h4{ display: flex;
+  margin-left:0%;
+  margin-right: 0%;
+  color: var(--cccolor);
+  justify-content: center;
+  text-shadow: 2px 2px   4px var(--blooo)
+  
+  }
